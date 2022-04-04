@@ -12,7 +12,7 @@ basic.forever(function () {
     }
     if (input.temperature() < 18 || input.temperature() > 25) {
         basic.showIcon(IconNames.Skull)
-        radio.sendMessage(RadioMessage.alerte_t)
+        radio.sendString("alerte_t")
         soundExpression.giggle.playUntilDone()
     } else {
         basic.showIcon(IconNames.Heart)
