@@ -1,5 +1,5 @@
 {
-    "name": "bioluminescence",
+    "name": "bioluminescence_emetteur",
     "description": "",
     "dependencies": {
         "core": "*",
